@@ -1,0 +1,64 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Proyecto_V000 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0xc0a /fo"Debug/Proyecto_V000.res" /d "_DEBUG" /d "_AFXDLL" "C:\Users\Waelock\Documents\GitHub\Proyecto_Logistica_pucv\Proyecto_V000\Proyecto_V000.rc"" 
+Creating temporary file "C:\Users\Waelock\AppData\Local\Temp\RSP6639.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Proyecto_V000.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"C:\Users\Waelock\Documents\GitHub\Proyecto_Logistica_pucv\Proyecto_V000\Proyecto_V000.cpp"
+"C:\Users\Waelock\Documents\GitHub\Proyecto_Logistica_pucv\Proyecto_V000\Proyecto_V000Dlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\Waelock\AppData\Local\Temp\RSP6639.tmp" 
+Creating temporary file "C:\Users\Waelock\AppData\Local\Temp\RSP663A.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Proyecto_V000.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"C:\Users\Waelock\Documents\GitHub\Proyecto_Logistica_pucv\Proyecto_V000\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\Waelock\AppData\Local\Temp\RSP663A.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Proyecto_V000.pdb" /debug /machine:I386 /out:"Debug/Proyecto_V000.exe" /pdbtype:sept  .\Debug\Proyecto_V000.obj .\Debug\Proyecto_V000Dlg.obj .\Debug\StdAfx.obj .\Debug\Proyecto_V000.res "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Proyecto_V000.cpp
+Proyecto_V000Dlg.cpp
+C:\Users\Waelock\Documents\GitHub\Proyecto_Logistica_pucv\Proyecto_V000\Proyecto_V000Dlg.cpp(85) : warning C4003: not enough actual parameters for macro 'ON_BN_CLICKED'
+C:\Users\Waelock\Documents\GitHub\Proyecto_Logistica_pucv\Proyecto_V000\Proyecto_V000Dlg.cpp(85) : warning C4003: not enough actual parameters for macro 'ON_CONTROL'
+C:\Users\Waelock\Documents\GitHub\Proyecto_Logistica_pucv\Proyecto_V000\Proyecto_V000Dlg.cpp(85) : error C2440: 'type cast' : cannot convert from 'void (__thiscall CProyecto_V000Dlg::*)(void)' to 'unsigned short'
+        Conversion is a valid standard conversion, which can be performed implicitly or by use of static_cast, C-style cast or function-style cast
+C:\Users\Waelock\Documents\GitHub\Proyecto_Logistica_pucv\Proyecto_V000\Proyecto_V000Dlg.cpp(85) : error C2440: 'type cast' : cannot convert from 'void (__thiscall CProyecto_V000Dlg::*)(void)' to 'unsigned short'
+        Conversion is a valid standard conversion, which can be performed implicitly or by use of static_cast, C-style cast or function-style cast
+C:\Users\Waelock\Documents\GitHub\Proyecto_Logistica_pucv\Proyecto_V000\Proyecto_V000Dlg.cpp(85) : error C2059: syntax error : '}'
+C:\Users\Waelock\Documents\GitHub\Proyecto_Logistica_pucv\Proyecto_V000\Proyecto_V000Dlg.cpp(85) : error C2143: syntax error : missing ';' before '}'
+C:\Users\Waelock\Documents\GitHub\Proyecto_Logistica_pucv\Proyecto_V000\Proyecto_V000Dlg.cpp(85) : error C2143: syntax error : missing ';' before '}'
+C:\Users\Waelock\Documents\GitHub\Proyecto_Logistica_pucv\Proyecto_V000\Proyecto_V000Dlg.cpp(86) : error C2143: syntax error : missing ';' before '{'
+C:\Users\Waelock\Documents\GitHub\Proyecto_Logistica_pucv\Proyecto_V000\Proyecto_V000Dlg.cpp(86) : error C2447: missing function header (old-style formal list?)
+C:\Users\Waelock\Documents\GitHub\Proyecto_Logistica_pucv\Proyecto_V000\Proyecto_V000Dlg.cpp(86) : error C2143: syntax error : missing ';' before ','
+C:\Users\Waelock\Documents\GitHub\Proyecto_Logistica_pucv\Proyecto_V000\Proyecto_V000Dlg.cpp(87) : error C2143: syntax error : missing ';' before '{'
+C:\Users\Waelock\Documents\GitHub\Proyecto_Logistica_pucv\Proyecto_V000\Proyecto_V000Dlg.cpp(87) : error C2447: missing function header (old-style formal list?)
+C:\Users\Waelock\Documents\GitHub\Proyecto_Logistica_pucv\Proyecto_V000\Proyecto_V000Dlg.cpp(87) : error C2143: syntax error : missing ';' before ','
+C:\Users\Waelock\Documents\GitHub\Proyecto_Logistica_pucv\Proyecto_V000\Proyecto_V000Dlg.cpp(88) : error C2143: syntax error : missing ';' before '{'
+C:\Users\Waelock\Documents\GitHub\Proyecto_Logistica_pucv\Proyecto_V000\Proyecto_V000Dlg.cpp(88) : error C2447: missing function header (old-style formal list?)
+C:\Users\Waelock\Documents\GitHub\Proyecto_Logistica_pucv\Proyecto_V000\Proyecto_V000Dlg.cpp(88) : error C2143: syntax error : missing ';' before ','
+C:\Users\Waelock\Documents\GitHub\Proyecto_Logistica_pucv\Proyecto_V000\Proyecto_V000Dlg.cpp(89) : error C2143: syntax error : missing ';' before '{'
+C:\Users\Waelock\Documents\GitHub\Proyecto_Logistica_pucv\Proyecto_V000\Proyecto_V000Dlg.cpp(89) : error C2447: missing function header (old-style formal list?)
+C:\Users\Waelock\Documents\GitHub\Proyecto_Logistica_pucv\Proyecto_V000\Proyecto_V000Dlg.cpp(89) : error C2143: syntax error : missing ';' before ','
+C:\Users\Waelock\Documents\GitHub\Proyecto_Logistica_pucv\Proyecto_V000\Proyecto_V000Dlg.cpp(91) : error C2143: syntax error : missing ';' before '{'
+C:\Users\Waelock\Documents\GitHub\Proyecto_Logistica_pucv\Proyecto_V000\Proyecto_V000Dlg.cpp(91) : error C2447: missing function header (old-style formal list?)
+C:\Users\Waelock\Documents\GitHub\Proyecto_Logistica_pucv\Proyecto_V000\Proyecto_V000Dlg.cpp(91) : error C2143: syntax error : missing ';' before '}'
+Generating Code...
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+Proyecto_V000.exe - 20 error(s), 2 warning(s)
+</pre>
+</body>
+</html>
